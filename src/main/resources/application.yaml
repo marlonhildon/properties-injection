@@ -1,0 +1,10 @@
+order-status:
+  SUCCESS:
+    code: OK
+    message: "The order was processed successfully!"
+  INTEGRATION_ERROR:
+    code: NOK
+    message: "Integration failed, please retry."
+  CANCELLED:
+    code: CANCEL
+    message: "The order was cancelled. The payment will be returned."
